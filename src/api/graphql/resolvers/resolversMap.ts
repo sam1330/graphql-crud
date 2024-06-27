@@ -12,11 +12,11 @@ export const resolvers = {
                     race: 'Hylian'
                 },
                 {
-                    id: 1,
+                    id: 2,
                     name: 'Zelda',
                     race: 'Hylian'
                 },
             ];
-        }
+        },
     },
 };
