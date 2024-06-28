@@ -4,8 +4,8 @@ fragment charactersFragment on Character {
 }
 
 type Query {
-    hello: String!
     characters: [Character]
+    character(id: ID!): Character
 }
 
 type Character {
